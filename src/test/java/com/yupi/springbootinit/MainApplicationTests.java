@@ -1,6 +1,6 @@
-package com.zouzy.springbootinit;
+package com.zouzy.bi;
 
-import com.zouzy.springbootinit.config.WxOpenConfig;
+import com.zouzy.bi.config.WxOpenConfig;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

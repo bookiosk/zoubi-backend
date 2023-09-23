@@ -1,9 +1,9 @@
-package com.zouzy.springbootinit.esdao;
+package com.zouzy.bi.esdao;
 
-import com.zouzy.springbootinit.model.dto.post.PostEsDTO;
-import com.zouzy.springbootinit.model.dto.post.PostQueryRequest;
-import com.zouzy.springbootinit.model.entity.Post;
-import com.zouzy.springbootinit.service.PostService;
+import com.zouzy.bi.model.dto.post.PostEsDTO;
+import com.zouzy.bi.model.dto.post.PostQueryRequest;
+import com.zouzy.bi.model.entity.Post;
+import com.zouzy.bi.service.PostService;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;

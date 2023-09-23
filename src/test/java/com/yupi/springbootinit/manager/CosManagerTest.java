@@ -1,4 +1,4 @@
-package com.zouzy.springbootinit.manager;
+package com.zouzy.bi.manager;
 
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.zouzy.springbootinit.service;
+package com.zouzy.bi.service;
 
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;

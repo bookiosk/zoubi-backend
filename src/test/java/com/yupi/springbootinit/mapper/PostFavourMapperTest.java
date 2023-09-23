@@ -1,9 +1,9 @@
-package com.zouzy.springbootinit.mapper;
+package com.zouzy.bi.mapper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.zouzy.springbootinit.model.entity.Post;
+import com.zouzy.bi.model.entity.Post;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
