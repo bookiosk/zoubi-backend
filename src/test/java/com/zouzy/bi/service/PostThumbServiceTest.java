@@ -1,6 +1,5 @@
 package com.zouzy.bi.service;
 
-import com.zouzy.bi.model.entity.User;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
