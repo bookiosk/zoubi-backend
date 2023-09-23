@@ -24,6 +24,7 @@ public class User implements Serializable {
     /**
      * 账号
      */
+    @TableField(value = "user_account")
     private String userAccount;
 
     /**
