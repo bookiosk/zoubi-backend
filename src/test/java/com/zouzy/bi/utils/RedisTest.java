@@ -14,6 +14,6 @@ public class RedisTest {
 
     @Test
     public void queryRedis() {
-        RLock k1 = redissonClient.getLock("k1");
+        redissonClient.getLock("k1")
     }
 }
