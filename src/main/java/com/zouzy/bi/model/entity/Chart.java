@@ -34,22 +34,22 @@ public class Chart implements Serializable {
     /**
      * 图表数据
      */
-    private String chartdata;
+    private String chartData;
 
     /**
      * 图表类型
      */
-    private String charttype;
+    private String chartType;
 
     /**
      * 生成的图表数据
      */
-    private String genchart;
+    private String genChart;
 
     /**
      * 生成的分析结论
      */
-    private String genresult;
+    private String genResult;
 
     /**
      * wait,running,succeed,failed
@@ -59,27 +59,27 @@ public class Chart implements Serializable {
     /**
      * 执行信息
      */
-    private String execmessage;
+    private String execMessage;
 
     /**
      * 创建用户 id
      */
-    private Long userid;
+    private Long userId;
 
     /**
      * 创建时间
      */
-    private Date createtime;
+    private Date createTime;
 
     /**
      * 更新时间
      */
-    private Date updatetime;
+    private Date updateTime;
 
     /**
      * 是否删除
      */
-    private Integer isdelete;
+    private Integer isDelete;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
