@@ -1,6 +1,5 @@
 package com.zouzy.bi.mapper;
 
-import com.zouzy.bi.model.entity.Post;
 import java.util.Date;
 import java.util.List;
 import javax.annotation.Resource;
