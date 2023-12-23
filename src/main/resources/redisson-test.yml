@@ -5,10 +5,10 @@ singleServerConfig:
   timeout: 3000
   retryAttempts: 3
   retryInterval: 1500
-  password: null
+  password: Tt98.0512
   subscriptionsPerConnection: 5
   clientName: null
-  address: "redis://1.15.147.35:6380"
+  address: "redis://114.55.61.179:6379"
   subscriptionConnectionMinimumIdleSize: 1
   subscriptionConnectionPoolSize: 50
   connectionMinimumIdleSize: 24
