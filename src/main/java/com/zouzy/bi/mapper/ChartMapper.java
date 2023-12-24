@@ -2,6 +2,10 @@ package com.zouzy.bi.mapper;
 
 import com.zouzy.bi.model.entity.Chart;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+import java.util.Map;
 
 /**
 * @author zouzhenyu
@@ -11,6 +15,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 */
 public interface ChartMapper extends BaseMapper<Chart> {
 
+
+    List<Map<String, Object>> queryChartData(@Param("querySql") String querySql);
 }
 
 
