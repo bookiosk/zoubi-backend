@@ -49,3 +49,12 @@ mybatis-plus:
       logic-delete-field: isDelete # 全局逻辑删除的实体字段名
       logic-delete-value: 1 # 逻辑已删除值（默认为 1）
       logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+baidu:
+  cloud:
+    app-id: 45624700
+    api-key: 1hn5hZUhl2hAVzlgeiG92EpA
+    secret-key: Te0cbLYSaywd0GpLCoDQ77EhhN1K8iuf
+yuapi:
+  client:
+    access-key: kbkhzzvbwxp155v8qnblwdywjz96mdi4
+    secret-key: en7y3u4w5otceb19d1vdimq049xepusm
