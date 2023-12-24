@@ -1,6 +1,6 @@
 package com.zouzy.bi.chart;
 
-import com.zouzy.bi.mapper.ChartMapper;
+import com.zouzy.bi.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,10 +10,5 @@ import javax.annotation.Resource;
 public class ChartTest {
 
     @Resource
-    private ChartMapper chartMapper;
-
-    @Test
-    void testChartSelect () {
-
-    }
+    private UserMapper userMapper;
 }
